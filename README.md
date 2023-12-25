@@ -1,4 +1,4 @@
-# cnn_fog
+# Implementing CNN to detect fog in images
 
 In an independent study project in Fall 2023, I learned how to pre-process and classify fog photos by implementing an input pipeline and a Convolutional Neural Network using Tensorflow.
 
@@ -21,3 +21,12 @@ I found it especially challenging to bridge the gap between understanding the ba
 
 [<img width="50%" src="https://github.com/autumn-yng/cnn_fog/assets/92401509/f5642e9c-0ecc-4dac-8c5b-e8771ec46d9a">](https://www.youtube.com/watch?v=XELqHT8wkvg)
 
+## Acknowledgement
+I am very thankful for
+- Professor Alyx Burns, the mentor who had helped me reflect on my progress and given me advice on my plan during our consistent weekly meeting throughout the semester.
+- Professor Melody Su, the professor who had taught me Computer Vision and spared time to discuss with me all questions I had about Machine Learning.
+
+## Resources
+These resources have been particularly helpful for me during the semester:
+- Nicholas Rennotte's [CNN tutorial](https://youtu.be/jztwpsIzEGc?si=9XTNDnWZUwyz8kMa)
+- Lawrence Moroney's [Machine Learning, Computer Vision, and CNN course](https://developers.google.com/codelabs/tensorflow-4-cnns#0)
