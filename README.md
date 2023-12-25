@@ -11,11 +11,13 @@ In the summer of 2023, I did research on [coastal fog](https://github.com/autumn
 
 I trained a Support Vector Machine model to detect fog in the photos, which saved us a lot of manual work. It still took several hours to rescale the photos and train and validate the model, and it didn't reach 100% accuracy, which was fine for the summer research, but I kept thinking if I could find a better Machine Learning model for this fog detection purpose. 
 
-After the summer, I proposed an independent study project at Mount Holyoke to self-learn Convolutional Neural Network (CNN) and follow various Tensorflow tutorials. After many struggles, I was able to design a Tensorflow input pipeline and a CNN model that does in a few minutes what the SVM did in hours. The CNN also reached 100% accuracy. Aside from my own learning purpose, I hope the CNN I trained can be helpful in supporting coastal fog research 🌫🌊.
+After the summer, I proposed an independent study project at Mount Holyoke to self-learn Convolutional Neural Network (CNN) and follow various Tensorflow tutorials. After many struggles, I was able to design a Tensorflow input pipeline and a CNN model that does in a few minutes what the SVM did in hours. The CNN also reached 100% Precision, 100% Recall, totaling 100% accuracy. Aside from my own learning purpose, I hope the CNN I trained can be helpful in supporting coastal fog research 🌫🌊.
+
+## Input pipeline, Model Training and Testing, Performance Visualization
+All of these are explained in details in the ipynb file.
 
 ## My tutorial video for Image Convolution in CNN
+I found it especially challenging to bridge the gap between understanding the basic concept of CNN and understanding the parameters of a real CNN model, even the most basic one. Even when I had understood what is a neural network, what is image convolution, and even when I knew the definitions of the parameters (like the first parameter is the number of kernels, the second is the shape of the kernel, etc.), I struggled to connect the dots and to understand the output of `model.summary()`. After many days digging into both the Computer Vision and Machine Learning concepts related to CNN, I have finally felt like I understood it well. I recorded this video, hoping that it would help future students like my past self have an easier time understanding this topic.
 
 [<img width="50%" src="https://github.com/autumn-yng/cnn_fog/assets/92401509/f5642e9c-0ecc-4dac-8c5b-e8771ec46d9a">](https://www.youtube.com/watch?v=XELqHT8wkvg)
-
-## Lessons
 
