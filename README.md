@@ -16,10 +16,14 @@ After the summer, I proposed an independent study project at Mount Holyoke to se
 ## Input pipeline, Model Training and Testing, Performance Visualization
 All of these are explained in details in the ipynb file.
 
-## My tutorial video for Image Convolution in CNN
+## My tutorial videos about CNN
+### Image Convolution, Input and Output in CNN
 I found it especially challenging to bridge the gap between understanding the basic concept of CNN and understanding the parameters of a real CNN model, even the most basic one. Even when I had understood what is a neural network, what is image convolution, and even when I knew the definitions of the parameters (like the first parameter is the number of kernels, the second is the shape of the kernel, etc.), I struggled to connect the dots and to understand the output of `model.summary()`. After many days digging into both the Computer Vision and Machine Learning concepts related to CNN, I have finally felt like I understood it well. I recorded this video, hoping that it would help future students like my past self have an easier time understanding this topic.
 
-[<img width="50%" src="https://github.com/autumn-yng/cnn_fog/assets/92401509/f5642e9c-0ecc-4dac-8c5b-e8771ec46d9a">](https://www.youtube.com/watch?v=XELqHT8wkvg)
+[<img width="50%" src="https://github.com/autumn-yng/cnn_fog/assets/92401509/f5642e9c-0ecc-4dac-8c5b-e8771ec46d9a">](https://youtu.be/XELqHT8wkvg?si=obOYN3964Z6IC4-e)
+
+### Parameters in CNN
+[<img width="50%" src="https://github.com/autumn-yng/cnn_fog/assets/92401509/64214071-5820-49f7-b324-bde00e32306f">](https://youtu.be/nHYKOQ9-YZI?si=5AGJocq47gZMWUCG)
 
 ## Acknowledgement
 I am very thankful for
