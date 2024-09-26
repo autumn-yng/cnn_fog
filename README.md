@@ -9,9 +9,10 @@ In an independent study project in Fall 2023, I learned how to pre-process and c
 ## Motivation
 In the summer of 2023, I did research on [coastal fog](https://github.com/autumn-yng/summerfog/tree/main) at UW's Friday Harbor Labs. One part of our research was looking at fog frequency from field photos, which were taken every 30 minutes by the cameras that we set up around the island. The research team had been manually looking through the thousands of photos to record when there was fog when I decided that I wanted something more efficient. 
 
-I trained a Support Vector Machine model to detect fog in the photos, which saved us a lot of manual work. It still took several hours to rescale the photos and train and validate the model, and it didn't reach 100% accuracy, which was fine for the summer research, but I kept thinking if I could find a better Machine Learning model for this fog detection purpose. 
+I trained a Support Vector Machine model to detect fog in the photos, which saved us a lot of manual work. It still took several hours to rescale the photos and train and validate the model; and it didn't reach 100% accuracy, which was fine for the summer research, but I kept thinking if I could find a better Machine Learning model for this. As I had seen Convolutional Neural Network (CNN) at a lot of places when reading about Computer Vision, after the summer, I proposed an independent study project at Mount Holyoke to self-learn CNN. 
 
-After the summer, I proposed an independent study project at Mount Holyoke to self-learn Convolutional Neural Network (CNN) and follow various Tensorflow tutorials. After many struggles, I was able to design a Tensorflow input pipeline and a CNN model that does in a few minutes what the SVM did in hours. The CNN also reached 100% Precision, 100% Recall, totaling 100% accuracy. Aside from my own learning purpose, I hope the CNN I trained can be helpful in supporting coastal fog research 🌫🌊.
+## Results
+After various Tensorflow tutorials and many struggles, I was able to design a Tensorflow input pipeline and a CNN model that does in **a few minutes** what the SVM did in hours. The CNN also reached **100% Precision**, **100% Recall**, totaling 100% accuracy. Aside from my own learning purpose, I hope the CNN I trained can be helpful in supporting coastal fog research 🌫🌊. I also created two tutorial videos and a Juptyter Notebook with detailed documentation! 
 
 ## Input pipeline, Model Training and Testing, Performance Visualization
 All of these are explained in details in the ipynb file.
